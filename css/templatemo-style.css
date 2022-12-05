@@ -54,7 +54,7 @@ nav .right a:hover::after{
 .hero {
     width: 100%;
     height: 15rem;
-    background-image: url('/./img/hero.jpg');
+    background-image: url('https://rahulkumar191.github.io/FirstWebProject/img/hero.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     border: 1px solid var(--secondary);
