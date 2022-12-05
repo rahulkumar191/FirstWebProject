@@ -1,0 +1,61 @@
+/* colors */
+
+:root{
+    --primary:#009999;
+    --secondary:#3399CC;
+    --ternary:#666666;
+    --footer:#dcd9d9af;
+    --pure:#f4f4f4;
+}
+
+/* heading */
+
+.heading{
+    margin-top:3rem;
+    margin-bottom: 2rem;
+    color: var(--primary);
+    font-size: large;
+}
+
+/* image */
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+/* flex */
+
+.flex{
+    display: flex;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.justify-around{
+    justify-content: space-around;
+}
+.justify-center{
+    justify-content: center;
+}
+.align-center{
+    align-content: center;
+}
+.items-center{
+    align-items: center;
+}
+.flex-flow{
+    flex-flow: row wrap;
+}
+.grow-1{
+    flex-grow: 1;
+}
+.grow-2{
+    flex-grow: 2;
+}
+.grow-3{
+    flex-grow: 3;
+}
+.basis-30{
+    flex-basis: 30%;
+}
